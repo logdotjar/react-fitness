@@ -8,6 +8,13 @@ const GlobalStyles = createGlobalStyle`
     *::after {
         box-sizing: border-box;
     }
+    *{
+        margin:0;
+        padding:0;
+    }
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
     ol, ul,li {list-style: none;}
     a, a:hover {text-decoration:none;}
     html,body,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dd,dt,p,div,header,section,footer,img,article,form,fieldset,select,a{ margin:0; padding:0;}
