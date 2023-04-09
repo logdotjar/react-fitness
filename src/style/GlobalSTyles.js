@@ -19,6 +19,11 @@ const GlobalStyles = createGlobalStyle`
     a, a:hover {text-decoration:none;}
     html,body,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dd,dt,p,div,header,section,footer,img,article,form,fieldset,select,a{ margin:0; padding:0;}
     img {border-style: none;vertical-align:middle; max-width: 100%;}
+
+    body {
+    font-family: 'Josefin Sans';
+    background-color: #FFFAFB;
+  }
 `;
 ;
 export default GlobalStyles;
