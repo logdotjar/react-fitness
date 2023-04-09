@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
-import NotoSansRegularWoff from "../fonts/NotoSansKR-Regular.woff";
-import NotoSansRegularWoff2 from "../fonts/NotoSansKR-Regular.woff2";
+import NotoSansRegularWoff from "../assets/fonts/NotoSansKR-Regular.woff";
+import NotoSansRegularWoff2 from "../assets/fonts/NotoSansKR-Regular.woff2";
 
 const GlobalStyles = createGlobalStyle`
   ${reset}

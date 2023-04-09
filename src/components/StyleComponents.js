@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-export const DirectionArrow = styled.button`
+const DirectionArrow = styled.button`
   position: absolute;
   bottom: -20px;
   display: flex;
@@ -22,20 +22,20 @@ export const DirectionArrow = styled.button`
 
   }
 `;
-export const LeftArrow = styled(DirectionArrow)`
+const LeftArrow = styled(DirectionArrow)`
   right: 80px;
 `;
-export const RightArrow = styled(DirectionArrow)`
+const RightArrow = styled(DirectionArrow)`
   right: 140px;
 `;
 
-export const HorizontalScrollingWrapper = styled.div`
+const HorizontalScrollingWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 `;
 
-export const DetailImage = styled.div`
+const DetailImage = styled.div`
   width: 729px;
   height: 742px;
   @media screen and (max-width: 1200px) {
@@ -44,7 +44,7 @@ export const DetailImage = styled.div`
   }
 `;
 
-export const HeroBannerImage = styled.div`
+const VisualBannerTag = styled.div`
   position: absolute;
   right: 40px;
   top: 0;
@@ -57,7 +57,7 @@ export const HeroBannerImage = styled.div`
 `;
 
 //bodypart , exercise card 공통 효과
-export const CardAnimation = styled.div`
+const CardAnimation = styled.div`
   transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
 
@@ -66,7 +66,7 @@ export const CardAnimation = styled.div`
   }
 `;
 
-export const ExerciseCard = styled.div`
+const ExerciseCard = styled.div`
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -84,11 +84,11 @@ export const ExerciseCard = styled.div`
     width: 280px;
   }
 `;
-export const ExerciseCardImg = styled.img`
+const ExerciseCardImg = styled.img`
     height: 326px;
 `;
 
-export const ExerciseVideo = styled.div`
+const ExerciseVideo = styled.div`
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -99,4 +99,6 @@ export const ExerciseVideo = styled.div`
     height: 300px;
   }
 `;
+
+export {DirectionArrow,LeftArrow,RightArrow,HorizontalScrollingWrapper,DetailImage,VisualBannerTag,CardAnimation,ExerciseCard,ExerciseCardImg,ExerciseVideo}
 

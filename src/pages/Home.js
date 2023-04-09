@@ -1,10 +1,15 @@
-import React from 'react';
-
+import React, { useState } from 'react';
+import { Box } from "@mui/material";
+import VisualBanner from "../components/VisualBanner";
+import SearchExercises from "../components/SearchExercises";
+import Exercises from"../components/Exercises";
 const Home = () => {
     return (
-        <div>
-            home
-        </div>
+        <Box>
+            <VisualBanner />
+            <SearchExercises />
+            <Exercises />
+        </Box>
     );
 };
 
