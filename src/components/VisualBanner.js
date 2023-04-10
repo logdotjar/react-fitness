@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, Stack, Typography, Button} from "@mui/material";
+import {Box, Typography, Button} from "@mui/material";
 import {VisualBannerTag} from "../components/StyleComponents";
 import VisualBannerImage from "../assets/images/banner.png";
 
@@ -40,8 +40,10 @@ const VisualBanner = () => {
                 variant="contained"
                 color="error"
                 href="#excercises"
-                sx={{ backgroundColor:"#ff2625",
-                padding:"10px 14px"}}
+                sx={{
+                    backgroundColor: "#ff2625",
+                    padding: "10px 14px"
+                }}
             >Explore Exercises</Button>
             <Typography
                 fontWeight={700}

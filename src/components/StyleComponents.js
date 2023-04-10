@@ -19,7 +19,6 @@ const DirectionArrow = styled.button`
 
   @media screen and (max-width: 1200px) {
     position: static;
-
   }
 `;
 const LeftArrow = styled(DirectionArrow)`
@@ -65,7 +64,11 @@ const CardAnimation = styled.div`
     transform: scale(1.1, 1.1);
   }
 `;
-
+const CardAnimationHover = styled(CardAnimation)`
+  &:hover {
+    transform: scale(1.1, 1.1);
+  }
+`;
 const ExerciseCard = styled.div`
   display: flex;
   justify-content: space-between;
@@ -80,12 +83,12 @@ const ExerciseCard = styled.div`
   @media screen and (max-width: 1200px) {
     width: 320px;
   }
-  @media screen and (max-width:400px) {
+  @media screen and (max-width: 400px) {
     width: 280px;
   }
 `;
 const ExerciseCardImg = styled.img`
-    height: 326px;
+  height: 326px;
 `;
 
 const ExerciseVideo = styled.div`
@@ -100,5 +103,17 @@ const ExerciseVideo = styled.div`
   }
 `;
 
-export {DirectionArrow,LeftArrow,RightArrow,HorizontalScrollingWrapper,DetailImage,VisualBannerTag,CardAnimation,ExerciseCard,ExerciseCardImg,ExerciseVideo}
+export {
+    DirectionArrow,
+    LeftArrow,
+    RightArrow,
+    HorizontalScrollingWrapper,
+    DetailImage,
+    VisualBannerTag,
+    CardAnimation,
+    CardAnimationHover,
+    ExerciseCard,
+    ExerciseCardImg,
+    ExerciseVideo
+}
 
