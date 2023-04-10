@@ -11,6 +11,6 @@ const Home = () => {
             <Exercises />
         </Box>
     );
-};
+}
 
 export default Home;
