@@ -14,12 +14,20 @@ const GlobalStyles = createGlobalStyle`
   ::-webkit-scrollbar {
     width: 0;
   }
-  
+
   img {
     border-style: none;
     vertical-align: middle;
     max-width: 100%;
   }
+
+  button {
+    display:inline-block;
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+  
   @font-face {
     font-family: "NotoSansKr";
     src: url(${NotoSansRegularWoff}) format("woff"),

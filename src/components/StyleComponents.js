@@ -64,11 +64,7 @@ const CardAnimation = styled.div`
     transform: scale(1.1, 1.1);
   }
 `;
-const CardAnimationHover = styled(CardAnimation)`
-  &:hover {
-    transform: scale(1.1, 1.1);
-  }
-`;
+
 const ExerciseCard = styled.div`
   display: flex;
   justify-content: space-between;
@@ -111,7 +107,6 @@ export {
     DetailImage,
     VisualBannerTag,
     CardAnimation,
-    CardAnimationHover,
     ExerciseCard,
     ExerciseCardImg,
     ExerciseVideo
