@@ -67,7 +67,7 @@ const CardAnimation = styled.div`
   }
 `;
 
-const ExerciseCard = styled.div`
+const ResultExerciseCard = styled.div`
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -109,7 +109,7 @@ export {
     DetailImage,
     VisualBannerTag,
     CardAnimation,
-    ExerciseCard,
+    ResultExerciseCard,
     ExerciseCardImg,
     ExerciseVideo
 }
