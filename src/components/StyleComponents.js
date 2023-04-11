@@ -12,19 +12,21 @@ const DirectionArrow = styled.button`
   color: #FF2625;
   font-size: 25px;
   border-radius: 4px;
+  z-index:1;
+  cursor: pointer;
 
   &:hover {
-    transform: scale(1.3, 1.3);
+    //transform: scale(1.3, 1.3);
   }
 
   @media screen and (max-width: 1200px) {
     position: static;
   }
 `;
-const LeftArrow = styled(DirectionArrow)`
+const SliderLeftArrow = styled(DirectionArrow)`
   right: 80px;
 `;
-const RightArrow = styled(DirectionArrow)`
+const SliderRightArrow = styled(DirectionArrow)`
   right: 140px;
 `;
 
@@ -101,8 +103,8 @@ const ExerciseVideo = styled.div`
 
 export {
     DirectionArrow,
-    LeftArrow,
-    RightArrow,
+    SliderLeftArrow,
+    SliderRightArrow,
     HorizontalScrollingWrapper,
     DetailImage,
     VisualBannerTag,

@@ -35,7 +35,7 @@ const BodyPart = ({item, setBodyPart, bodyPart}) => {
             >
                 {item}
             </Typography>
-        </Stack>
+         </Stack>
     );
 };
 

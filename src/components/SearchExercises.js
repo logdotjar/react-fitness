@@ -60,7 +60,6 @@ const SearchExercises = ({setExercises,bodyPart,setBodyPart}) => {
                             lg: 'calc(60% - 173px)',
                             md: '350px',
                             xs: 'calc(100% - 80px)'
-
                         },
                         backgroundColor: '#fff',
                         borderRadius: '40px'
@@ -77,8 +76,6 @@ const SearchExercises = ({setExercises,bodyPart,setBodyPart}) => {
                         textTransform: 'none',
                         width: {lg: '173px', xs: '80px'},
                         height: '56px',
-                        // position: 'absolute',
-                        // right: '0',
                         fontSize: {lg: '20px', xs: '14px'}
                     }}
                     onClick={handleSearch}
