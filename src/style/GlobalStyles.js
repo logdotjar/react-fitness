@@ -27,13 +27,15 @@ const GlobalStyles = createGlobalStyle`
     border: 0;
     background: transparent;
   }
-  
+
+  a, a:hover {text-decoration:none;}
+
+
   @font-face {
     font-family: "NotoSansKr";
     src: url(${NotoSansRegularWoff}) format("woff"),
     url(${NotoSansRegularWoff2}) format("woff2");
   }
-
 
   body {
     font-family: 'NotoSansKr', sans-serif;
