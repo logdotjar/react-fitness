@@ -9,7 +9,7 @@ import GlobalStyle from "./style/GlobalStyles";
 
 const theme = createTheme({
     typography:{
-        fontFamily:"'NotoSansKr',sans-serif"
+        fontFamily:"'NanumSquare',sans-serif"
     }
 });
 
