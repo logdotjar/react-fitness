@@ -36,7 +36,9 @@ const HorizontalScrollingWrapper = styled.div`
   width: 100%;
 `;
 
-const DetailImage = styled.div`
+const ExerciseDetailImage = styled.div`
+  display:flex;
+  align-items: center;
   width: 729px;
   height: 742px;
   @media screen and (max-width: 1200px) {
@@ -106,7 +108,7 @@ export {
     SliderLeftArrow,
     SliderRightArrow,
     HorizontalScrollingWrapper,
-    DetailImage,
+    ExerciseDetailImage,
     VisualBannerTag,
     CardAnimation,
     ResultExerciseCard,
