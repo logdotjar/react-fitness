@@ -74,7 +74,7 @@ const ResultExerciseCard = styled.div`
   justify-content: space-between;
   flex-direction: column;
   width: 400px;
-  height: 445px;
+  //height: 445px;
   padding-bottom: 10px;
   background: #ffffff;
   border-top: 4px solid #FF2625;
@@ -93,13 +93,21 @@ const ExerciseCardImg = styled.img`
 
 const ExerciseVideo = styled.div`
   display: flex;
-  flex-direction: column;
+  align-items: flex-start;
   gap: 24px;
   width: 387px;
-  height: 381px;
+  //height: 381px;
+  a{
+    display:block;
+    width: 100%;
+  }
+  
   @media screen and (max-width: 1200px) {
-    width: 320px;
-    height: 300px;
+    margin-bottom: 50px;
+  }
+  @media screen and (max-width: 900px){
+    width: 100%;
+    max-width: 360px;
   }
 `;
 
