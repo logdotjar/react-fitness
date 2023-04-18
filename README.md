@@ -1,9 +1,22 @@
 # fitness 홈페이지
-Next.js 기반 API를 사용한 fitness 홈페이지 
+Next.js 기반 API를 사용한 fitness 홈페이지 <br/>
+<img width="640" alt="react-fitness" src="https://camo.githubusercontent.com/746abd821ec7c0224f27176a2ea5c698157b05aaa1f58390059629bf6644dae9/68747470733a2f2f692e6962622e636f2f597439737047632f696d6167652e706e67">
 
-### Stack
+
+### 사용한 기술
 1. Next.js
 2. Styled-components
+3. Exercise DB : Rapid API에서 제공하는 무료 API
+
+### 작성과정
+1. React : 여러개의 컴포넌트로 구성한 레이아웃 생성
+2. Styled-components <br/>
+  2-1. CSS-in-JS 컴포넌트 단위로 스타일링<br/>
+  2-2. props나 상태에 따른 동적 스타일링 적용으로 재사용성과 유지보수를 위해 사용
+3. Exercise DB : API를 사용하여 동적으로 많은 페이지의 정보제공<br/>
+  3-1. 부위별 운동리스트 <br/>
+  3-2. 각 운동 별 상세내용<br/>
+  3-3. 각 운동 별 추천 운동 및 연관 운동
 
 #### Commit 규약
 - feat : 새로운 기능 추가
