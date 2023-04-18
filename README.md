@@ -1,5 +1,5 @@
 # fitness 홈페이지
-Next.js 기반 API를 사용한 fitness 홈페이지 <br/>
+React.js.와 API를 사용한 fitness 홈페이지 <br/>
 ![react-fitness](https://user-images.githubusercontent.com/32288848/232669202-906d5ec5-5691-498e-bdce-3a85aa931963.png)
 
 ### 사용한 기술
