@@ -1,7 +1,6 @@
 # fitness 홈페이지
 Next.js 기반 API를 사용한 fitness 홈페이지 <br/>
-<img width="640" alt="react-fitness" src="https://camo.githubusercontent.com/746abd821ec7c0224f27176a2ea5c698157b05aaa1f58390059629bf6644dae9/68747470733a2f2f692e6962622e636f2f597439737047632f696d6167652e706e67">
-
+![react-fitness](https://user-images.githubusercontent.com/32288848/232669202-906d5ec5-5691-498e-bdce-3a85aa931963.png)
 
 ### 사용한 기술
 1. Next.js
