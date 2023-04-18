@@ -3,7 +3,7 @@ Next.js 기반 API를 사용한 fitness 홈페이지 <br/>
 ![react-fitness](https://user-images.githubusercontent.com/32288848/232669202-906d5ec5-5691-498e-bdce-3a85aa931963.png)
 
 ### 사용한 기술
-1. Next.js
+1. React.js
 2. Styled-components
 3. Exercise DB : Rapid API에서 제공하는 무료 API
 
